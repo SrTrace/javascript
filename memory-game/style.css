@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 408px;
+    width: 408px;
+    cursor: pointer;
+}
+
+img {
+    box-sizing: border-box;
+    border: 1px solid darkblue;
+}
+
+button {
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.facebook-style-btn {
+    display: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 6px 12px;
+
+    -moz-box-shadow:    inset 0px 1px 0px 0px #4d73bf;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #4d73bf;
+    box-shadow:         inset 0px 1px 0px 0px #4d73bf;
+    background: #4267b2;
+    border: 1px solid #4267b2;
+    color: #fff;
+    text-shadow: 0 1px 0px #3359a5;
+}
+
+.facebook-style-btn:hover {
+    background: #2b54a7;
+}
+
+.facebook-style-btn:active {
+    background: #1d4698;
+    border-color: #1d4698;
+}
